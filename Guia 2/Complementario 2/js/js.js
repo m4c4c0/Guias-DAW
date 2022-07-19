@@ -36,13 +36,13 @@ for(i = 0; i <= 100; i++){
             seguir = prompt("¿Desea agrear otro produto si o no?");
             switch(seguir){
                 case 'si':
-                    b1 = true;
+                    
                     b1 = true;
                     cantP ++;
                 break;
                 case 'no':
                     i = 100;
-                    b1 = true;
+                    
                     b1 = true;
                 break;
                 default:
@@ -61,4 +61,3 @@ for(i = 0; i <= 100; i++){
     }
     
     document.write("</table>");
-    
